@@ -62,7 +62,7 @@
                                         $str = "http://";
                                     }
                                     ?>
-                                    <a href="<?php echo $str.$dom["@Ontology#link"];?>"><li class="list-group-item"><?php echo $dom["@Ontology#id"]." - ".$dom["@Ontology#label"]."<br>";?></li></a>
+                                    <a href="<?php echo $str.$dom["@Ontology#link"];?>" target="_blank"><li class="list-group-item"><?php echo $dom["@Ontology#id"]." - ".$dom["@Ontology#label"]."<br>";?></li></a>
                                 <?php }
 
         
